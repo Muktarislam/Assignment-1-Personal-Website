@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hedding{
+    color: salmon;
+}
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+h2{
+    margin-top: 20px;
+}
+h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.first-image{
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 40px;
+    margin-bottom: 20px;
+}
+.btn1{
+    background-color: rgb(255, 38, 0);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.card1{
+    margin: 20px;
+    float: left;
+    width: 40%;
+    border-left: 5px;
+    padding: 20px;
+    border-left: 8px solid;
+    border-top: 8px solid;
+    border-image: linear-gradient(80deg, rgb(253, 237, 6),rgb(236, 236, 236));
+    border-image-slice: 1;
+    box-shadow: 8px 7px 30px gray;
+}
+
+.card2{
+    margin: 20px;
+    float: left;
+    width: 40%;
+    padding: 20px;
+    border-right: 8px solid;
+    border-bottom: 8px solid;
+    border-image: linear-gradient(80deg, rgb(255, 255, 255),rgb(255, 0, 221));
+    border-image-slice: 1;
+    box-shadow: 8px 7px 30px gray;
+}
+.cards{
+}
